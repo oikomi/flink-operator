@@ -1,0 +1,11 @@
+domain: flink.stream.cluster
+layout: go.kubebuilder.io/v3
+projectName: flink-operator
+repo: github.com/oikomi/flink-operator
+resources:
+- api:
+    crdVersion: v1
+  group: jobs
+  kind: FlinkJob
+  version: v1
+version: 3-alpha

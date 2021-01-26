@@ -1,0 +1,7 @@
+apiVersion: jobs.flink.stream.cluster/v1
+kind: FlinkJob
+metadata:
+  name: flinkjob-sample
+spec:
+  # Add fields here
+  foo: bar
